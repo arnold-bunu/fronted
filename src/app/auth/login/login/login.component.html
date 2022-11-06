@@ -1,0 +1,27 @@
+<form (submit)="onlogin(loginForm)" #loginForm="ngForm">
+    <input type="text"
+    ngModel name ="enteredusername"
+    placeholder="Username"
+    required
+    minlength="1"
+    pattern="^[a-zA-Z0-9\s_-]+$"
+    #enteredUsername ="ngModel" />
+
+    <input type="text"
+    ngModel name="enteredemail"
+    placeholder="Email Address"
+    required
+    minlength="1"
+    pattern="[A-Za-z0-9._%-]+@[A-Za-z0-9._%-]+\\.[a-z]{2,3}"
+    enteredemail="ngModel">
+
+    <input type="text"
+    ngModel name="enteredpassword"
+    placeholder="Paswword"
+    required
+    minlength="1"
+    pattern="/^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,}$/"
+    enterdpassword="ngModel">
+
+    <button type="submit">{{option}}</button>
+</form>

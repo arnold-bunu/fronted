@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+ .backgroundpic {
+    background-image: url('./assets/coatp.png');
+    background-size: content;
+    background-repeat: no-repeat;
+    width: fit-content;
+    height: fit-content;
+ }
+
+ .headings-content {
+   color: red;
+ }
+ .master-controls {
+   text-align: center;
+ }

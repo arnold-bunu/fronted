@@ -1,0 +1,35 @@
+<form (submit)="onAddIssue(addIssue)" #addIssue="ngForm" class="issueEntry">
+    <input type ="text"
+    ngModel name="enteredID"
+    placeholder="Issue ID"
+    required
+    minlength="1"
+    pattern="^[a-zA-Z0-9\s_-]+$"
+    #enteredID ="ngModel" />
+
+    <input type ="text"
+    ngModel name="enteredProvince"
+    placeholder="Province"
+    required
+    minlength="1"
+    pattern="^[a-zA-Z0-9\s_-]+$"
+    #enteredProvince ="ngModel" />
+
+    <input type ="text"
+    ngModel name="enteredIssue" 
+    placeholder="Issue"
+    required
+    minlength="1"
+    pattern="^[a-zA-Z0-9\s_-]+$"
+    #enteredIssue ="ngModel" />
+    
+    <input type ="text"
+    ngModel name="enteredPriority"
+    placeholder="Priority Level"
+    required
+    minlength="1"
+    pattern="^[a-zA-Z0-9\s_-]+$"
+    #enteredPriority ="ngModel" />
+
+    <button type="submit" > Submit Issue</button>
+</form>

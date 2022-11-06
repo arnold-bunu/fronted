@@ -1,0 +1,58 @@
+.header-intro {
+    text-align: center;
+    color: red;
+    font-size: large;
+    font-weight: bolder;
+    
+}
+/* .h1 {
+    color: red;
+} */
+
+.backgroundimg {
+    
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    
+    
+    opacity: 0.5;
+
+}
+.information-box {
+    border: groove;
+    border-color: black;
+    background: darkgrey;
+    width: fit-content;
+    height: auto;
+    text-align: center;
+    
+    
+}
+.coa {
+   
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+.master-controls {
+
+    align-items: center;
+    text-align: center;
+}
+.control-view {
+    height: 200px;
+    width: 300px;
+    float: left;
+}
+.control-create {
+    height: 200px;
+    width: 300px;
+    float: left;
+    
+}
+.control-login {
+    height: 200px;
+    width: 200px;
+    float: left;
+}

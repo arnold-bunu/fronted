@@ -1,0 +1,9 @@
+<div *ngFor="let issue of issues">
+    {{issue.id}}
+    {{issue.province}}
+    {{issue.issue}}
+    {{issue.priority}}
+
+    <button (click)="ondelete(issue._id)">Delete</button>
+
+</div>
